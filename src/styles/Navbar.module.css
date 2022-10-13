@@ -1,0 +1,23 @@
+.Navbar {
+    display: flex;
+    padding: 40px 140px;
+    justify-content: space-between;
+}
+
+#logo-container {
+    padding: 0px 20px;
+}
+
+#CTA-button {
+    border: 2px solid #1F8429;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    background: none;
+    color: #1F8429;
+}
+#CTA-button:hover {
+    background: #1F8429;
+    color: white;
+    
+}
