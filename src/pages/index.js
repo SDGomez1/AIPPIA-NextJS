@@ -14,6 +14,7 @@ export default function Home() {
       <Navbar/> 
       <Hero/>
       <ChangingWords/>
+      <Snap></Snap>
     </Fragment>
   )
 }
