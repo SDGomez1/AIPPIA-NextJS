@@ -7,7 +7,7 @@ import { useInView  } from 'react-intersection-observer';
 
 const Snap = () => {
  
-    const { ref:wat, inView, entry } = useInView({
+    const { ref:wat, inView } = useInView({
         threshold:0.97,
       })
 

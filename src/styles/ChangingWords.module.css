@@ -2,49 +2,61 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 200px;
+    padding: 0px 0px 0px 100px;
+    background: linear-gradient(270deg, #113706 0%, rgba(52, 109, 30, 0.89) 100%);    
 }
 
 .ChangingWords >h3 {
     display: inline;
+    font-size: 24px;
+    margin: 0px;
+    width: 250px;
+    color: white;
 }
 
 .words {
+    color: white;
     display: block;
     height: 100%;
-    animation: spin_words 6s infinite;
+    animation: spin_words 10s infinite;
     padding-left: 8px;
-    font-size: 20px;
+    font-size: 24px;
+    width: 900px;
+    margin-bottom: 40px;
+    
 }
 .wrapper {
-    height: 20px;
+    height: 32px;
     margin: 18px 0px;
     overflow-y: hidden;
 }
 
 @keyframes spin_words {
-    10% {
-        transform: translateY(-120%);
-    }
-    25%{
-        transform: translateY(-117%);
-    }
-    35% {
+    0%{
+        transform: translateY(0%);
+        opacity: 1;}
+    20%{
+        transform: translateY(-230%)
+        }
+    
+    33% {
         transform: translateY(-220%);
+        opacity: 1;
     }
-    50% {
-        transform: translateY(-217%);
+    53% {
+        transform: translateY(-460%)
     }
-    60%{
-        transform: translateY(-320%);
+  
+    66% {
+        transform: translateY(-450%);
+        opacity: 1;
     }
-    70% {
-        transform: translateY(-317%);
+    89%{
+        transform: translateY(10%)
     }
-    85%{
-        transform: translateY(-420%);
-    }
-    100% {
-        transform: translateY(-417%);
-    }
+    
+
+    
     
 }

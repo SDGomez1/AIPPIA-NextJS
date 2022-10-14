@@ -1,0 +1,15 @@
+.Cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px 20px 100px;
+}
+
+@media (max-width: 575.98px) {
+    
+    .Cards {
+        flex-direction: column;
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+}
