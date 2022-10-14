@@ -1,6 +1,6 @@
 .Navbar {
     display: flex;
-    padding: 40px 140px;
+    padding: 40px 140px 30px 140px;
     justify-content: space-between;
 }
 
@@ -9,15 +9,16 @@
 }
 
 #CTA-button {
-    border: 2px solid #1F8429;
+    border: 2px solid ;
+    border-color: var(--GreenColor);
     border-radius: 5px;
     height: 40px;
     width: 200px;
     background: none;
-    color: #1F8429;
+    color:var(--GreenColor);
 }
 #CTA-button:hover {
-    background: #1F8429;
+    background: var(--GreenColor);
     color: white;
     
 }

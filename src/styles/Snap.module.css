@@ -1,0 +1,28 @@
+.Snap {
+    height: 100vh;
+    width: 100%;
+    scroll-snap-type: y mandatory;
+    overflow-y: hidden;
+}
+
+.Snap-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 100vh;
+    scroll-snap-align: start;
+    background-color: black;
+}
+.Snap-section >h3 {
+    font-size: 48px;
+    color: white;
+}
+.Snap::-webkit-scrollbar{
+    display: none;
+}
+
+
+.Scrolling {
+    overflow-y: scroll !important;
+}

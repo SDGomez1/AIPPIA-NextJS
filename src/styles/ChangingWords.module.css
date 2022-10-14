@@ -1,0 +1,50 @@
+.ChangingWords {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChangingWords >h3 {
+    display: inline;
+}
+
+.words {
+    display: block;
+    height: 100%;
+    animation: spin_words 6s infinite;
+    padding-left: 8px;
+    font-size: 20px;
+}
+.wrapper {
+    height: 20px;
+    margin: 18px 0px;
+    overflow-y: hidden;
+}
+
+@keyframes spin_words {
+    10% {
+        transform: translateY(-120%);
+    }
+    25%{
+        transform: translateY(-117%);
+    }
+    35% {
+        transform: translateY(-220%);
+    }
+    50% {
+        transform: translateY(-217%);
+    }
+    60%{
+        transform: translateY(-320%);
+    }
+    70% {
+        transform: translateY(-317%);
+    }
+    85%{
+        transform: translateY(-420%);
+    }
+    100% {
+        transform: translateY(-417%);
+    }
+    
+}
