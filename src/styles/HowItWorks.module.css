@@ -2,3 +2,13 @@
     text-align: center;
     font-size: 40px;
 }
+
+#HowItWorks-section {
+    background-color: aquamarine;
+}
+
+@media (max-width: 575.98px) {
+    #HowItWorks-section {
+        padding: 20px 0px;
+    }
+}

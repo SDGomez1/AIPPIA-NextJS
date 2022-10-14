@@ -23,3 +23,22 @@
     width: 512px;
     height: 502px;
 }
+
+
+@media (max-width: 575.98px) {
+    .Hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+   
+    .Hero-container{
+        height: auto;
+        width: 100%;
+    }
+    #Hero-title {
+        font-size: 22px;
+        padding: 0px 20px;
+        text-align: center;
+    }
+}

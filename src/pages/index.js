@@ -3,8 +3,9 @@ import { Hero } from '@components/Hero'
 import { Fragment } from 'react'
 import { HowItWorks } from '@templates/HowItWorks'
 import { Navbar } from '../components/Navbar'
-import { Snap } from '@components/Snap'
 import { ChangingWords } from '@components/ChagingWords'
+import { Card } from '@components/Card'
+import { Cards } from '@templates/Cards'
 
 
 
@@ -14,6 +15,8 @@ export default function Home() {
       <Navbar/> 
       <Hero/>
       <ChangingWords/>
+      <HowItWorks/>
+      <Cards/>
     </Fragment>
   )
 }

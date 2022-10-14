@@ -22,3 +22,15 @@
     color: white;
     
 }
+
+@media (max-width: 575.98px) {
+
+    .Navbar{
+        padding: 20px 0px;
+        justify-content: center;
+    }
+    #CTA-button {
+        display: none;
+    }
+
+}

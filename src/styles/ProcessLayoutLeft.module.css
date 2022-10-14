@@ -1,0 +1,74 @@
+.ProcessLayoutLeft {
+    height: 600px;
+    margin: 20px 20px;
+    padding: 0px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.ProcessLayoutLeft-img {
+    border: 1px solid #000000;
+    width: 512px;
+    height: 502px;
+    overflow-x: hidden;
+
+}
+
+.ProcessLayoutLeft-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    padding-left: 60px;
+    overflow-x: hidden;
+
+}
+
+.circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background: rgba(31, 132, 41, 0.72);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow-x: hidden;
+
+}
+
+.bulletTextContainer {
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+.bulletText {
+    margin-left: 20px;
+    width: 380px;
+    overflow-x: hidden;
+
+}
+
+@media (max-width: 575.98px) {
+    .ProcessLayoutLeft {
+        flex-direction: column;
+        padding: 0px;
+        height: auto;
+    }
+    span .ProcessLayoutLeft-img {
+        transform: translateY(-260px);
+    }
+    .ProcessLayoutLeft-img {
+        width: 100%;
+        transform: translateY(-440px);
+
+        
+    }
+    .ProcessLayoutLeft-text-container {
+        width: 100%;
+        padding: 0%;
+        transform: translateY(500px);
+    }
+    .bulletText {
+        width: 70%;
+    }
+}
