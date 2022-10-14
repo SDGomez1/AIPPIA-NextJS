@@ -3,11 +3,10 @@ import styles from '@styles/ChangingWords.module.css'
 
 const title = "Agricultura Vertical es "
 const words = [
-    " Wow",
-    " off",
-    " uff",
-    "aff",
-    "Wow"
+    "un espacio cerrado para producción de vegetales con luz artificial.",
+    "Mejor calidad Menos consumo de recursos y contaminación ambiental.",
+    "Agricultura vertical, Complemento agricultura convencional en la distribución y producción.",
+    
 ]
 
 const createWords = words.map((item,index) => {

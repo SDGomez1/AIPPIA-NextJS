@@ -78,8 +78,7 @@ const ProcessLayoutLeft = (props) => {
 
             </motion.div>
 
-            <motion.div className={styles["ProcessLayoutLeft-img"]} id = {props.idname}>
-
+            <motion.div className={styles["ProcessLayoutLeft-img"]}>
             </motion.div>
 
 

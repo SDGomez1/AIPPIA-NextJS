@@ -12,6 +12,7 @@ import styles from '@styles/ProcessLayoutRigth.module.css';
             duration:1,
             times: [0.4 , 1],
             staggerChildren: 0.3,
+
             
         }
     },

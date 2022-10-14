@@ -11,13 +11,20 @@
 }
 
 .Card:first-child {
-background-color: antiquewhite;
+background-color: gray;
 }
 
 .Card:nth-child(2) {
-background-color: bisque;
+background-color: purple;
 }
 
 .Card:nth-child(3) {
 
+}
+
+@media (max-width: 575.98px) {
+    .Card {
+        margin-top: 30px;
+    }
+    
 }

@@ -53,20 +53,24 @@
         flex-direction: column;
         padding: 0px;
         height: auto;
+        overflow-y: hidden;
     }
     span .ProcessLayoutLeft-img {
         transform: translateY(-260px);
+        width: 295px;
+        height: 300px;
     }
     .ProcessLayoutLeft-img {
         width: 100%;
         transform: translateY(-440px);
-
+        width: 295px;
+        height: 300px;
         
     }
     .ProcessLayoutLeft-text-container {
         width: 100%;
         padding: 0%;
-        transform: translateY(500px);
+        transform: translateY(300px);
     }
     .bulletText {
         width: 70%;

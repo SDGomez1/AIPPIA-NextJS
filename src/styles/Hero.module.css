@@ -30,7 +30,9 @@
         flex-direction: column;
         height: auto;
     }
-
+    #Hero-img {
+        height: 300px;
+    }
    
     .Hero-container{
         height: auto;
