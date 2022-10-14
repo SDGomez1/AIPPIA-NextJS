@@ -2,7 +2,10 @@ import React from 'react'
 import { ProcessLayoutRigth } from '@components/ProcessLayoutRigth'
 import styles from '@styles/HowItWorks.module.css'
 import { ProcessLayoutLeft } from '@components/ProcessLayoutLeft'
-
+import plantRack from '@imgs/plantsRack.jpg'
+import seeds from '@imgs/seeds.jpg'
+import hydroponic from '@imgs/hydroponic.jpg'
+import produce from '@imgs/greenProduce.jpg'
 const text1 = [
     "Todo empieza en nuestras Intalaciones",
     "Nos ubicamos dentro de la ciudad, Aqui tenemos intalaciones equipadas con todo lo necesacio para realizar los mejores cultivos."
@@ -52,13 +55,13 @@ const HowItWorks = () => {
     return (
         <section>
             <h2 id={styles["HowItWorks-title"]}> ¿como Funciona?</h2>
-            <ProcessLayoutRigth listText={listText1} text={text1} />
+            <ProcessLayoutRigth listText={listText1} text={text1} source={plantRack} />
             <span>
-            <ProcessLayoutLeft listText={listText2} text={text2}/>
+            <ProcessLayoutLeft listText={listText2} text={text2} source={seeds}/>
             </span>
             <div id={styles["HowItWorks-section"]}>
-                <ProcessLayoutRigth listText={listText3} text={text3}/>
-                <ProcessLayoutLeft listText={listText4} text={text4}/>
+                <ProcessLayoutRigth listText={listText3} text={text3} source={hydroponic}/>
+                <ProcessLayoutLeft listText={listText4} text={text4} source= {produce}/>
             </div>
         </section>
     )

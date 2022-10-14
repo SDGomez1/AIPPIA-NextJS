@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styles from '@styles/ProcessLayoutLeft.module.css'
+import Image from "next/image";
+
 
 
 const animationContainer = {
@@ -79,6 +81,7 @@ const ProcessLayoutLeft = (props) => {
             </motion.div>
 
             <motion.div className={styles["ProcessLayoutLeft-img"]}>
+                <Image src={props.source}/>
             </motion.div>
 
 
