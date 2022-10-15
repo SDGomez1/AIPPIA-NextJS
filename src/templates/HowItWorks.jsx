@@ -54,7 +54,7 @@ const HowItWorks = () => {
 
     return (
         <section>
-            <h2 id={styles["HowItWorks-title"]}> ¿como Funciona?</h2>
+            <h2 id={styles["HowItWorks-title"]}> ¿Como funciona?</h2>
             <ProcessLayoutRigth listText={listText1} text={text1} source={plantRack} />
             <span>
             <ProcessLayoutLeft listText={listText2} text={text2} source={seeds}/>

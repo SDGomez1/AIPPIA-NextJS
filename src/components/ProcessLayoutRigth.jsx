@@ -1,5 +1,5 @@
 import React from "react";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import styles from '@styles/ProcessLayoutRigth.module.css';
       
@@ -60,7 +60,7 @@ const ProcessLayoutRigth = (props) => {
                 className={styles["ProcessLayoutRigth-img"]} 
                 variants = {animationContainer}
             >
-                <Image src={props.source}/>
+                <Image src={props.source} alt="image"/>
             </motion.div>
 
             <motion.div 

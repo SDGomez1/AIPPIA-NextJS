@@ -31,6 +31,40 @@
     margin: 18px 0px;
     overflow-y: hidden;
 }
+.words-mobile {
+    display: none;
+}
+
+
+@media (max-width:598.98px) {
+    .ChangingWords{
+        margin: 0px 0px;
+        height: auto;
+        padding: 20px 20px;
+        background-color: black;
+    }
+    .ChangingWords >h3 {
+        display: none;
+
+    }
+    .wrapper {
+        display: none;
+    }
+    .words-mobile {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+     .words-mobile > p {
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+     }
+      #text-title-mobile{
+        color: var(--GreenColor);
+     }
+}
 
 @keyframes spin_words {
     0%{

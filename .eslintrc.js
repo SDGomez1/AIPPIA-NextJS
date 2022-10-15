@@ -13,4 +13,7 @@ module.exports = {
     'next',
     'next/core-web-vitals',
   ],
+  rules: {
+    'prettier/prettier': 0 
+  }
 }

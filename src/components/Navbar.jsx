@@ -4,13 +4,18 @@ import styles from "../styles/Navbar.module.css"
 import { motion } from "framer-motion"; 
 
 const text = [
-    "Quiero saber más"
+    "Contactanos"
 ]
+
+const onClickBottom = () => {
+    window.scrollTo(0, document.body.clientHeight)
+}
+
 
 const Navbar = () => {
     return (
-        <div className= {styles.Navbar}>
-            <div id= {styles["logo-container"]}>
+        <div className= {styles.Navbar} >
+            <div id= {styles["logo-container"]} on>
                 <Logo/>
             </div>
             
@@ -34,6 +39,7 @@ const Navbar = () => {
                 whileHover={{ 
                     scale: 1.05,
                 }}
+                onClick = {onClickBottom}
             >
                 {text[0]}
             </motion.button>

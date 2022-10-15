@@ -24,6 +24,9 @@
 
 }
 
+.ProcessLayoutLeft-text-container >h4 {
+    font-size: 36px;
+}
 .circle {
     height: 35px;
     width: 35px;
@@ -55,13 +58,13 @@
         overflow-y: hidden;
     }
     span .ProcessLayoutLeft-img {
-        transform: translateY(-260px);
+        transform: translateY(-360px);
         width: 295px;
         height: 300px;
     }
     .ProcessLayoutLeft-img {
         width: 100%;
-        transform: translateY(-440px);
+        transform: translateY(-620px);
         width: 295px;
         height: 300px;
         

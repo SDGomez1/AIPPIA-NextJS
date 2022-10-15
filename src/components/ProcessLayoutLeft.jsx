@@ -80,8 +80,8 @@ const ProcessLayoutLeft = (props) => {
 
             </motion.div>
 
-            <motion.div className={styles["ProcessLayoutLeft-img"]}>
-                <Image src={props.source}/>
+            <motion.div className={styles["ProcessLayoutLeft-img"]} >
+                <Image src={props.source} alt= "image"/>
             </motion.div>
 
 

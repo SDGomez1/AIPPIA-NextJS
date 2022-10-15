@@ -41,7 +41,7 @@ const CallToAction = () => {
             <p>
                 {text[1]}
             </p>
-            <div>
+            <div className={styles["Input-container"]}>
                 <input placeholder='example@email.com' className={styles["CallToAction-input"]}></input>
                 <motion.button 
                     className={styles["CallToAction-button"]}
