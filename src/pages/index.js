@@ -4,8 +4,8 @@ import { Fragment } from 'react'
 import { HowItWorks } from '@templates/HowItWorks'
 import { Navbar } from '../components/Navbar'
 import { ChangingWords } from '@components/ChagingWords'
-import { Card } from '@components/Card'
 import { Cards } from '@templates/Cards'
+import { CallToAction } from '@components/CallToAction'
 
 
 
@@ -17,6 +17,7 @@ export default function Home() {
       <ChangingWords/>
       <HowItWorks/>
       <Cards/>
+      <CallToAction/>
     </Fragment>
   )
 }

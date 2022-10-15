@@ -4,7 +4,7 @@
     align-items: center;
     height: 200px;
     padding: 0px 0px 0px 100px;
-    background: linear-gradient(270deg, #113706 0%, rgba(52, 109, 30, 0.89) 100%);    
+    /*background: linear-gradient(270deg, #113706 0%, rgba(52, 109, 30, 0.89) 100%);   */
 }
 
 .ChangingWords >h3 {
@@ -12,11 +12,11 @@
     font-size: 24px;
     margin: 0px;
     width: 250px;
-    color: white;
+    /* color: white; */
 }
 
 .words {
-    color: white;
+    /* color: white; */
     display: block;
     height: 100%;
     animation: spin_words 10s infinite;

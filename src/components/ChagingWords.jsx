@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from '@styles/ChangingWords.module.css'
+import { motion } from 'framer-motion'
 
 const title = "Agricultura Vertical es "
 const words = [
     "un espacio cerrado para producción de vegetales con luz artificial.",
     "Mejor calidad Menos consumo de recursos y contaminación ambiental.",
-    "Agricultura vertical, Complemento agricultura convencional en la distribución y producción.",
+    " Complemento agricultura convencional en la distribución y producción.",
     
 ]
 
@@ -18,13 +19,25 @@ const ChangingWords = () => {
 
 
     return(
-        <div className={styles.ChangingWords}>
+        <motion.div 
+            className={styles.ChangingWords}
+            initial = {{
+                opacity:0
+            }}
+            animate = {{
+                opacity:1,
+                transition: {
+                    delay:2.5,
+                    duration: 2
+                }
+            }}    
+        >
             <h3 >{title}  </h3>
             <div className={styles.wrapper} > 
                 {createWords}
             </div>
 
-        </div>
+        </motion.div>
     )
 }
 

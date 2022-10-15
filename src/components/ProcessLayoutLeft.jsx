@@ -55,7 +55,7 @@ const ProcessLayoutLeft = (props) => {
             className={styles.ProcessLayoutLeft}
             initial="hidden"
             whileInView = "inView"
-            viewport={{once:true}}
+            viewport={{once:true, amount:0.7}}
             variants = {animationContainer}
             >
 

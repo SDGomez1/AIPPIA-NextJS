@@ -5,9 +5,7 @@ const Card = (props) => {
     const text = props.text
     return (
         <motion.div 
-            className={styles.Card}
-            
-        >
+            className={styles.Card}>   
             <h4 id= {styles["card-title"]}>
                 {text[0]}
             </h4>
