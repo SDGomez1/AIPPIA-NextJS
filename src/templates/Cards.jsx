@@ -5,7 +5,7 @@ import styles from "@styles/Cards.module.css"
 
 const text1 = [
     "Calidad",
-    "Calidad nutricional que te ayuda a cuidar el medio ambiente.Más fácil de consumir y sin necesidad de lavarlos"
+    "Calidad nutricional que te ayuda a cuidar el medio ambiente.Más fácil de consumir y sin necesidad de lavarlos!"
 ]
 const text2 = [
     "Frescura",

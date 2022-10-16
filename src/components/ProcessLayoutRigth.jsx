@@ -54,7 +54,7 @@ const ProcessLayoutRigth = (props) => {
             initial="hidden"
             whileInView = "inView"
             variants = {{animationContainer}}
-            viewport={{once:true, amount:0.7}}
+            viewport={{once:true, amount:0.4}}
         >
             <motion.div 
                 className={styles["ProcessLayoutRigth-img"]} 

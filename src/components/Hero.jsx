@@ -5,7 +5,8 @@ import Image from 'next/image'
 import Ambient from '@imgs/Ambiente Controlado.jpg'
 
 const text = [
-    "Se parte de la nueva generación de vegetales amigables con el medio ambiente"
+    "¿Conoces la nueva forma de producir vegetales?  Entérate cómo y de sus beneficios"
+    
 ]
 
 const animation = {

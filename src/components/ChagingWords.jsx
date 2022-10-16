@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 
 const title = "Agricultura Vertical es "
 const words = [
-    "un espacio cerrado para producción de vegetales con luz artificial.",
-    "Mejor calidad Menos consumo de recursos y contaminación ambiental.",
-    " Complemento agricultura convencional en la distribución y producción.",
+    "un espacio cerrado para producción de vegetales con luz artificial",
+    "Mejor calidad Menos consumo de recursos y contaminación ambiental",
+    " Complemento agricultura convencional para distribución y producción.",
     
 ]
 
