@@ -43,6 +43,7 @@ const postMail = async (req,res) => {
             error:null
         })
     } catch (err) {
+        console.log(err)
         return res.status(400).json({
             error: "Algo salio mal. Intenta de nuevo más tarde"
             
